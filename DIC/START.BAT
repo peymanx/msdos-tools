@@ -1,0 +1,2 @@
+vegaf.com
+dic.exe

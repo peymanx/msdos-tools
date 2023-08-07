@@ -1,0 +1,259 @@
+ ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+ Û ÛÛÛÛÛÛÛÛ  ÜÛÛÛÛÜ  ÛÛÜ   ÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÜ  ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ Û
+ Û ÛÛ       ÛÛß  ßÛÛ ÛÛÛÛÜ ÛÛ    ÛÛ    ÛÛ       ÛÛ   ßÛÛ    ÛÛ       ÛÛ    Û
+ Û ÛÛÛÛÛÛ   ÛÛ    ÛÛ ÛÛ ßÛÛÛÛ    ÛÛ    ÛÛÛÛÛÛ   ÛÛ    ÛÛ    ÛÛ       ÛÛ    Û
+ Û ÛÛ       ÛÛÜ  ÜÛÛ ÛÛ   ßÛÛ    ÛÛ    ÛÛ       ÛÛ   ÜÛÛ    ÛÛ       ÛÛ    Û
+ Û ÛÛ        ßÛÛÛÛß  ÛÛ    ÛÛ    ÛÛ    ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛß  ÛÛÛÛÛÛÛÛ    ÛÛ    Û
+ ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+                                 Version 1.0
+                               by Travis Cobbs
+
+ Table of Contents Ü
+ßßßßßßßßßßßßßßßßßßßß
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+ INTRODUCTION ............................................................2
+   ş What is FontEdit? ...................................................2
+   ş Files ...............................................................2
+
+ GETTING STARTED .........................................................2
+   ş Choosing a Font File ................................................2
+   ş Mouse Control .......................................................2
+
+ OPTION BOXES ............................................................2
+   ş A..Z ................................................................2
+   ş a..z ................................................................3
+   ş Symbols .............................................................3
+   ş Numbers .............................................................3
+   ş Start Value .........................................................3
+   ş Save File ...........................................................3
+   ş Quit (Save) .........................................................3
+   ş Quit (Abandon) ......................................................3
+   ş Load New Font .......................................................3
+
+ SETFONT .................................................................3
+
+ REVERSE .................................................................3
+
+ FONTS ...................................................................4
+
+ ADRESSES ................................................................4
+
+ SOFTWARE LICENSE ........................................................4
+
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+FontEdit V1.0                                                        Page 1
+
+ Introduction Ü
+ßßßßßßßßßßßßßßß
+ What is FontEdit?
+ ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+   FontEdit is a program which lets you to modify the font used in DOS Text
+   mode with a VGA adapter.  It provides a graphical interface in which you
+   can modify the standard DOS font.  It is mouse driven, and cannot be run
+   without a mouse.
+
+ Files
+ ÍÍÍÍÍ
+   FontEdit should contain the following files:
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     FONTEDIT.EXE  Ä-Graphical font editing program
+      SETFONT.EXE  Ä-Program which sets DOS Text font; uses file created in
+                     FONTEDIT.EXE
+      REVERSE.EXE  Ä-Program which  creates a mirror image of a font.  More
+                     of a joke than anything else.
+           DF.BAT  Ä-Short  batch file  which calls  MODE.  This resets the
+                     font to standard DOS Text.
+        ASCII.FNT  Ä-FontEdit font file:  standard DOS Text.
+     SANSERIF.FNT  Ä-FontEdit font file:  sanserif.
+      BY_HAND.FNT  Ä-FontEdit font file:  hand-drawn looking font.
+     FONTEDIT.DOC  Ä-This file.
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ Getting Started Ü
+ßßßßßßßßßßßßßßßßßß
+
+ Choosing a font file
+ ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+   There are two  methods of  choosing a font file:  interactively, or from
+   the command line.
+   Command line:
+     To choose a font from the command line, simply enter its name:
+         FONTEDIT SANSERIF.FNT or FONTEDIT SANSERIF.
+     Notice  that  you  don't  have to  type ".FNT".  This  is the  default
+     extension.  So long as you don't  have a file of the same name without
+     any extension, the file with the .FNT extension will be loaded.
+   Interactive:
+     If you don't  specify a  file on the command  line, or if the file you
+     specify  is not found, you  will be asked to  enter a filename.  Here,
+     as before, you don't  have to type  the .FNT extension.  Also, you may
+     type <Enter> to load up ASCII.FNT, the default DOS Text font.
+
+ Mouse control
+ ÍÍÍÍÍÍÍÍÍÍÍÍÍ
+   Once in the font editor, you use the mouse to modify the font you loaded
+   up.  The  left mouse  button  adds to the  box it is  over, and the left
+   button erases it.
+
+ Option boxes Ü
+ßßßßßßßßßßßßßßß
+   Across  the bottom  of the screen,  there are  nine option boxes:  A..Z,
+   a..z,  Symbols,  Numbers,  Start  Value, Save  Font, Quit  (Save),  Quit
+   (Abandon), and Load New Font.  These control the program.
+
+ A..Z
+ ÍÍÍÍ
+   This  displays the  letters A through Z on  the  screen, if you  haven't
+   changed  them to something  else.  At any rate, it displays  ASCII char-
+   acters 65-90.
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+FontEdit V1.0                                                        Page 2
+
+ a..z
+ ÍÍÍÍ
+   This displays the letters a through z on the screen, ASCII 97-122.
+
+ Symbols
+ ÍÍÍÍÍÍÍ
+   This  displays  most (27) of the  punctuation  symbols:  !"#$%&'()*+,-./
+   (ASCII  33-47), :;<=>?@ (ASCII  58-64), and [\]^_ (ASCII  91-95).  Note:
+   this misses one symbol:  ` (ASCII 96).  Since  there is only room on the
+   screen for 27 characters at a time, ` didn't fit.
+
+ Numbers
+ ÍÍÍÍÍÍÍ
+   This displays the numbers 0 through 9 (ASCII 48-57).
+
+ Start Value
+ ÍÍÍÍÍÍÍÍÍÍÍ
+   This lets you  specify the ASCII code to start on.  It then displays the
+   next 27  characters. (Up  through 127 max.)  By  specifying 96 here, you
+   can modify the last punctuation symbol.  You may also specify any number
+   between 0 and 127.
+
+ Save Font
+ ÍÍÍÍÍÍÍÍÍ
+   This allows you to save the font  without  exiting the program.  You may
+   either enter a name, or hit <Enter>  to accept the  current name.  Note:
+   the  program  does NOT  check to  see if the file is  already there.  It
+   automatically overwrites existing files without asking beforehand.
+
+ Quit (Save)
+ ÍÍÍÍÍÍÍÍÍÍÍ
+   This exits the program, giving you the save prompt first.
+
+ Quit (Abandon)
+ ÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+   This exits the program, abandoning any changes made to the current font.
+
+ Load New Font
+ ÍÍÍÍÍÍÍÍÍÍÍÍÍ
+   This lets you load a new font and  abandon the current one.  If you want
+   to  save  the  changes  to the  current font, you must  select Save Font
+   BEFORE  you select  Load New Font.  Load New Font  simply  brings up the
+   Load prompt.
+
+ SetFont Ü
+ßßßßßßßßßß
+   Usage:  SETFONT <filename>
+   This is the program that  actually  changes the font in DOS.  You run it
+   in  DOS with the  name of the font you  want to use on the command line:
+       SETFONT SANSERIF.FNT or SETFONT SANSERIF
+   As with FontEdit, .FNT is the default  extension.  Run DF.BAT to put the
+   DOS back to normal.  Also, any time  you go into graphics mode, the font
+   is  reset.  However, so  long as you stay 25  line text  mode, the  font
+   stays set, even in application programs.
+
+ Reverse Ü
+ßßßßßßßßßß
+   Usage:  REVERSE <input file> [output file]
+   This is a program  which  creates a mirror  image of a font.  If [output
+   file]  is not  specified, it uses  the input  file's  name,  with a .BKW
+   extension.
+
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+FontEdit V1.0                                                        Page 3
+
+ Fonts Ü
+ßßßßßßßß
+   This program currently comes with three fonts:  ASCII.FNT, SANSERIF.FNT,
+   and  BY_HAND.FNT.  ASCII.FNT is  just the  standard  DOS font, but it is
+   handy  as  a  template  when  starting  a  new  font.  SANSERIF.FNT  and
+   BY_HAND.FNT are  both fonts that I created  with this program.  SANSERIF
+   is, as it sounds, a sanserif  font.  BY_HAND is a font which is supposed
+   to look  like it was  drawn by  hand, as opposed  to on a computer.  The
+   capital  letters do, but the small  letters are a little small to really
+   look hand-drawn.  All font files created by this version of FontEdit are
+   EXACTLY 2048 bytes.  If they aren't,  they are corrupt.  They don't con-
+   tain  headers, so if  they are  larger than 2048 bytes, the program will
+   load them anyway, most likely resulting in static.
+
+ Addresses Ü
+ßßßßßßßßßßßß
+    If you have any  comments, questions, or  suggestions, I can be reached
+    at the following:
+
+                              US Mail ³ Travis Cobbs
+                                      ³ Yosemite 14C Cal Poly
+                                      ³ San Louis Obispo, CA 93407
+                                      ³ (until June 12, 1992)
+                                      ³
+                                      ³ Travis Cobbs
+                                      ³ 330 Keeler Ct.
+                                      ³ San Jose, CA 95139
+                                      ³ (Permanent Address)
+                                      ³
+                             Internet ³ tcobbs@nike.calpoly.edu
+                                      ³
+                            Telephone ³ (805) 756-3513
+                                      ³ (until June 12, 1992)
+                                      ³
+                                      ³ (408) 227-3322
+                                      ³ (Summer)
+
+   Thanks  to Andy Hakim, the  author of NOHISS, a digital  noise reduction
+   program for the Sound Blaster.  It's a great  program that significantly
+   reduces  the "hiss" on  recorded speech with the Sound  Blaster.  It was
+   source  code from this program  which gave me the routine which sets the
+   DOS Text mode font, without which, this program would be pretty useless.
+
+ Software License Ü
+ßßßßßßßßßßßßßßßßßßß
+   FontEdit  version  1.0 is a FREE,  public  domain  program.  There is no
+   registration process or monetary fee required to use it.
+
+   You may freely distribute FontEdit to others as long as:
+
+               ş Only the original files are distributed
+               ş No changes are made to any files
+               ş No money is charged for the program
+
+   FontEdit and this  documentation are (C) Copyright 1991 by Travis Cobbs.
+   All Rights Reserved.  The  author of this  program is not liable for any
+   damage  caused  by its  use.  By using  this  program, you  agree to the
+   above conditions.
+
+
+
+
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+FontEdit V1.0                                                        Page 4
